@@ -59,15 +59,48 @@ public class JD1Primitives {
 //        System.out.println("doubleX = " + doubleX);
 //        System.out.println("doubleY = " + doubleY);
 //
-        doubleX=0.55%11;
-//        doubleY=0/0; ==> ArithmeticException division by zero!
-        doubleY=0.55%0.11;
-        System.out.println("doubleX = " + doubleX);
-        System.out.println("doubleY = " + doubleY);
+//        doubleX=0.55%11;
+////        doubleY=0/0; ==> ArithmeticException division by zero!
+//        doubleY=0.55%0.11;
+//        System.out.println("doubleX = " + doubleX);
+//        System.out.println("doubleY = " + doubleY);
+//
+//        doubleX=0.55/11;
+//        doubleY=0.55/0.11;
+//        System.out.println("doubleX = " + doubleX);
+//        System.out.println("doubleY = " + doubleY);
+//
+//        var varX=0.55/11;
+//        var varY=3_654_456_159L;
+//        var varZ='\u0055';
+//        var varBool=true;
+//        System.out.println("varX = " + varX);
+//        System.out.println("varY = " + varY);
+//        System.out.println("varZ = " + varZ);
+//        System.out.println("varBool = " + varBool);
 
-        doubleX=0.55/11;
-        doubleY=0.55/0.11;
-        System.out.println("doubleX = " + doubleX);
-        System.out.println("doubleY = " + doubleY);
+//        intX=5;
+//        intY=8*intX++;
+//        System.out.println("intX = " + intX);
+//        System.out.println("intY = " + intY);
+
+//        int a = 5;
+//        byte b = (byte) a;
+//        System.out.println(b);
+//        long c = a;
+//        System.out.println(c);
+//        c = b + c;
+//        System.out.println(c);
+//        a = b;
+//        System.out.println(a);
+
+//        int l = 13413531;
+//        byte m = (byte) l;
+//        System.out.println(m);
+//        byte n = (byte) 1315435;
+//        System.out.println(n);
+
+        int d = 'a' + 5;
+        System.out.println(d);
     }
 }
