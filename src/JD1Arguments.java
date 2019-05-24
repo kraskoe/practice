@@ -3,6 +3,7 @@ public class JD1Arguments {
         sum(1, 5, 9, 15, 12, 64);
         mult("No multipliers");
         mult("Five multipliers:", 5, 4, 3, 634, 9431);
+        System.out.println(factorial(5));
     }
 
     static void sum(int ...args){
@@ -21,5 +22,14 @@ public class JD1Arguments {
         System.out.println(someString);
         System.out.println(result);
         return result;
+    }
+
+    static int factorial(int x){
+
+        if (x == 1){
+
+            return 1;
+        }
+        return x * factorial(x - 1);
     }
 }
